@@ -34,7 +34,7 @@ class TrackOrderScreen extends StatelessWidget {
             Column(
               children: [
                 // Column of text
-                SizedBox(
+                const SizedBox(
                   height: 40,
                 ),
                 Column(
@@ -56,7 +56,7 @@ class TrackOrderScreen extends StatelessWidget {
                         )),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 30,
                 ),
                 // Container Text

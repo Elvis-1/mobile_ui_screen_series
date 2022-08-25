@@ -14,7 +14,7 @@ class MyCartScreen extends StatelessWidget {
         color: AppColors.myCartBackgroundColor,
         child: Center(
           child: Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
                 color: AppColors.backgroundColor,
                 borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(25),
@@ -50,7 +50,7 @@ class MyCartScreen extends StatelessWidget {
                 ),
 
                 // column of image, text and button
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Column(
@@ -73,7 +73,7 @@ class MyCartScreen extends StatelessWidget {
                         itemQuantity: '1')
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 50,
                 ),
                 // row of text and button
@@ -83,7 +83,7 @@ class MyCartScreen extends StatelessWidget {
                     // column of text
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
+                      children: const [
                         Text(
                           'Total',
                           style: TextStyle(
@@ -106,7 +106,7 @@ class MyCartScreen extends StatelessWidget {
                       decoration: BoxDecoration(
                           color: AppColors.lightBlue,
                           borderRadius: BorderRadius.circular(25)),
-                      child: Text(
+                      child: const Text(
                         'Checkout',
                         style: TextStyle(
                             color: AppColors.backgroundColor,

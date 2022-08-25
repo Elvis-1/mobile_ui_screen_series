@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:mobile_ui_screen_series/colors.dart';
 
 class ImageAndText extends StatelessWidget {
-  ImageAndText({Key? key, required this.image, required this.text})
+  const ImageAndText({Key? key, required this.image, required this.text})
       : super(key: key);
-  String image;
-  String text;
+  final String image;
+  final String text;
 
   @override
   Widget build(BuildContext context) {
