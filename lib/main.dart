@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_ui_screen_series/screens/my_cart_screen.dart';
+import 'package:mobile_ui_screen_series/screens/track_order_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +11,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
-        // theme: ThemeData.dark().copyWith(
-        //scaffoldBackgroundColor: Colors.white,
-        //      ),
-        home: const MyCartScreen());
+        home: TrackOrderScreen());
   }
 }
